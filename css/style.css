@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  /* overflow: hidden; */
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+}
+
+.bar-hidden {
+  overflow: hidden;
+}
+
+
+.sw-container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 35px 0;
+  font-size: 50px;
+  letter-spacing: 0.2rem;
+}
+
+p {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.btn-pink {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  background-color: #e91e63;
+  width: 180px;
+  height: 46px;
+  line-height: 46px;
+  display: inline-block;
+  border: 1px solid #e91e63;
+  border-radius: 5px;
+  margin: 5px 5px;
+}
+
+.btn-pink:hover {
+  background: #F50057;
+  border-color: #F50057;
+}
+
+.btn-white {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+  width: 180px;
+  height: 46px;
+  line-height: 46px;
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 5px 5px;
+}
+
+.btn-white:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.slider-content {
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slide-item-1 {
+  background-image: url(../img/slide1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.slide-item-2 {
+  background-image: url(../img/slide2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.slide-item-3 {
+  background-image: url(../img/slide3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff;
+}
+
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+	color: #fff;
+  font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 575.98px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+      display: none;
+  }
+  h1 {
+      font-size: 38px;
+  }
+}
